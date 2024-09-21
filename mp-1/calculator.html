@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <link rel="stylesheet" href="styles.css">
+            <meta charset="UTF-8">
+            <title>Calculator | JMA Resume</title>
+        </head>
+
+        <body id="flag">
+            <div>
+                <h1 id="calc"><em><span id="one">T</span><span id="two">h</span><span id="one">e</span> <span id="two">S</span><span id="one">p</span><span id="two">a</span><span id="one">n</span><span id="two">i</span><span id="one">s</span><span id="two">h</span> <span id="one">C</span><span id="two">a</span><span id="one">l</span><span id="two">c</span><span id="one">u</span><span id="two">l</span><span id="one">a</span><span id="two">t</span><span id="one">o</span><span id="two">r</span><span id="one">!</span></em></h1>
+                <br>
+                <br>
+                <br>
+                <br>
+                <input id="first" type="number" placeholder="First number">
+                <input id="second" type="number" placeholder="Second number">
+                <br>
+                <button id="sum" onclick="adder()">+</button>
+                <button id="sub"onclick="subber()">-</button>
+                <button id="mul" onclick="multiplier()">*</button>
+                <button id="div" onclick="divider()">/</button>
+                <button id="pow" onclick="powNums()">**</button>
+                <button id="clr" onclick="clearer()"><strong>Clear</strong></button>
+                <p id="calc"><strong><em>Result: </em></strong></p>
+                
+                <h3 id="output"></h3>
+                <h3 id="alt-output"></h3>
+            </div>
+            <img id="escudo" src="escudo.png" alt="shield of spain">
+            <script src="calc.js"></script>
+        </body>
+    </html>
